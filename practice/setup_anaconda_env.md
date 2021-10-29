@@ -58,5 +58,5 @@ import PyPDF2
 help(PyPDF2)
 ```
 
-You should now see the help instructions for your package.
+You should now see the help instructions for your package. (loading packages is case-sensitive, so make shure to spell it right!)
 
