@@ -46,3 +46,17 @@ Now you will be able to install packages (in this case pypdf2) in your virtual i
 ```console
 conda install -n politiekeindex pypdf2
 ```
+
+Check if your package can be imported in python using jupyter-lab. Open jupyter-lab in the terminal:
+```console
+jupyter-lab
+```
+Within jupyter-lab run:
+```python
+import PyPDF2
+
+help(PyPDF2)
+```
+
+You should now see the help instructions for your package.
+
