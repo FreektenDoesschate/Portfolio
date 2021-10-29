@@ -60,10 +60,17 @@ help(PyPDF2)
 
 You should now see the help instructions for your package. (loading packages is case-sensitive, so make shure to spell it right!)
 
-## Deactivate
+## Deactivate/reactivate
 
 If you're done working in your virtual env: save your work, close jupyter-lab (control+c) in terminal, and deactivate your virtual env:
 
 ```console
 conda deactivate
+```
+To start working again in the env:
+
+If you're done working in your virtual env: save your work, close jupyter-lab (control+c) in terminal, and deactivate your virtual env:
+
+```console
+conda activate politiekeindex
 ```
