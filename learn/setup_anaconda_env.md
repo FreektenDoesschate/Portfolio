@@ -12,7 +12,7 @@ Open a terminal and run the following command:
 conda create --name politiekeindex python=3.9
 ```
 
-List all envs to check if it is correctly installed
+List all envs to check if it is actually created
 
 ```console
 conda info --envs   
