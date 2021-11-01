@@ -38,7 +38,7 @@ jupyter-lab
 
 ## install packages in virtual env
 
-To leave jupyter-lab, go back to your terminal and press control+c. Now to install the packages that you need, we first need to be able to connect to conda-forge (i.e., a channel with _many_ packages).
+To leave jupyter-lab, go back to your terminal and press control+c. Now to install the packages that you need, we first need to be able to connect to conda-forge (i.e., a channel with allmost all packages).
 ```console
 conda config --append channels conda-forge
 ```
