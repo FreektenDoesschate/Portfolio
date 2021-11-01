@@ -6,10 +6,10 @@ If the env is activated, you have all package versions at your disposal. This pr
 
 ## Create environment
 
-After you installed [conda](https://anaconda.org), use it to create a new environment. In this case the env is calles "politiekeindex", with python 3.9 installed. It also installs pip (a program used to install specific python packages) and some other stuff.
+After you installed [conda](https://anaconda.org), use it to create a new environment. In this case the env is called "test_env", with python 3.9 installed. It also installs pip (a program used to install specific python packages) and some other stuff.
 Open a terminal and run the following command:
 ```console
-conda create --name politiekeindex python=3.9
+conda create --name test_env python=3.9
 ```
 
 List all envs to check if it is actually created
@@ -20,7 +20,7 @@ conda info --envs
 Activate the newly created environment:
 
 ```console
-conda activate politiekeindex   
+conda activate test_env 
 ```
 
 ## install jupyter-lab
@@ -44,7 +44,7 @@ conda config --append channels conda-forge
 ```
 Now you will be able to install packages (in this case pypdf2) in your virtual invironment using:
 ```console
-conda install -n politiekeindex pypdf2
+conda install -n test_env pandas
 ```
 
 Check if your package can be imported in python using jupyter-lab. Open jupyter-lab in the terminal:
@@ -53,9 +53,9 @@ jupyter-lab
 ```
 Within jupyter-lab run:
 ```python
-import PyPDF2
+import pandas
 
-help(PyPDF2)
+help(pandas)
 ```
 
 You should now see the help instructions for your package. (loading packages is case-sensitive, so make shure to spell it right!)
@@ -72,5 +72,5 @@ To start working again in the env:
 If you're done working in your virtual env: save your work, close jupyter-lab (control+c) in terminal, and deactivate your virtual env:
 
 ```console
-conda activate politiekeindex
+conda activate test_env
 ```
