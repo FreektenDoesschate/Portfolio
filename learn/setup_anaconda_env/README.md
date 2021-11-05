@@ -1,7 +1,7 @@
 
 # Setup anaconda environment for python project
 
-A anaconda environment(env) is a virtual env that can be used for datascience projects. You install the specific versions of python and packages that you want to use for your project.
+An anaconda environment(env) is a virtual env that can be used for datascience projects. You install the specific versions of python and packages that you want to use for your project.
 If the env is activated, you have all package versions at your disposal. This provides a stable env to run your analysis and allows you to use different package versions for different projects.
 
 This is a step-by-step tutorial. If you want to install all at once, run the code in [this](setup_anaconda_code.sh) file in your console with conda already installed.
