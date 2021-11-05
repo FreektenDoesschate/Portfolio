@@ -121,6 +121,10 @@ conda install -y xgboost
 
 # package for explainable machine learning:
 conda install dalex
+
+# package that makes datacleaning and simple viz easy
+pip install --upgrade bamboolib --user
+python -m bamboolib install_labextensions                    
 ```
 
 
