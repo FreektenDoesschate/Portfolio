@@ -78,23 +78,44 @@ conda activate test_env
 
 ## List of handy jupyter extensions and python packages
 
+Make sure you are in the correct environment, then run following code blocks
 
 Jupyter extensions:
 ```console
-# Handy helper functions (hover-over instructions etc), but nog sure how to configure 
-conda install -c conda-forge jupyterlab-lsp  
-pip install lckr-jupyterlab-variableinspector # see which variables are used by your code
-conda install -c conda-forge jupyterlab_code_formatter # formats code automatically 
-conda install black isort # formatter plugins for latter
-pip install aquirdturtle_collapsible_headings # enables collapsible headings in python
+# Handy helper functions (hover-over instructions etc), but nog sure how to configure:
+conda install -y -c conda-forge jupyterlab-lsp
+
+# see which variables are used by your code:
+pip install lckr-jupyterlab-variableinspector 
+
+# formats code automatically + formatter-plugins:
+conda install -y -c conda-forge jupyterlab_code_formatter  
+conda install -y black isort
+
+# enables collapsible headings in python:
+pip install aquirdturtle_collapsible_headings
 ```
 
 Python packages:
 ```console
-conda install -n test_env numpy # for array manipulation
-conda install -n test_env pandas # for data-frame manipulation
-conda install -n test_env matplotlib # for plotting
-conda install -n test_env plotly # for interactive-plotting
-conda install -n test_env scikit-learn # many machine-learning tools
-conda install -n test_env xgboost # popular gradient-boosting algorithm
+# for array manipulation:
+conda install -y numpy
+
+# for data-frame manipulation:
+conda install -y pandas
+
+# for plotting:
+conda install -y matplotlib
+
+# for interactive-plotting:
+conda install -y plotly
+
+# many machine-learning tools:
+conda install -y scikit-learn
+
+# popular gradient-boosting algorithm:
+conda install -y xgboost
+
+# package for explainable machine learning:
+conda install dalex
 ```
