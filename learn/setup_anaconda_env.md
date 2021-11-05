@@ -81,7 +81,8 @@ conda activate test_env
 
 Jupyter extensions:
 ```console
-conda install -c conda-forge jupyterlab-lsp   # Handy helper functions (hover-over instructions etc), but nog sure how to configure 
+# Handy helper functions (hover-over instructions etc), but nog sure how to configure 
+conda install -c conda-forge jupyterlab-lsp  
 pip install lckr-jupyterlab-variableinspector # see which variables are used by your code
 conda install -c conda-forge jupyterlab_code_formatter # formats code automatically 
 conda install black isort # formatter plugins for latter
