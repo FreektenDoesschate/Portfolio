@@ -6,4 +6,5 @@ conda activate myenv
 pip install 'python-lsp-server[all]' lckr-jupyterlab-variableinspector aquirdturtle_collapsible_headings
 pip install --upgrade bamboolib --user
 python -m bamboolib install_labextensions 
+pip install openpyxl
 
