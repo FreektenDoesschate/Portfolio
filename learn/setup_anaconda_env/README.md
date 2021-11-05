@@ -124,7 +124,8 @@ conda install dalex
 
 # package that makes datacleaning and simple viz easy
 pip install --upgrade bamboolib --user
-python -m bamboolib install_labextensions                    
+python -m bamboolib install_labextensions      
+pip install openpyxl
 ```
 
 
