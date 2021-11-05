@@ -74,3 +74,26 @@ If you're done working in your virtual env: save your work, close jupyter-lab (c
 ```console
 conda activate test_env
 ```
+
+
+## List of handy jupyter extensions and python packages
+
+
+Jupyter extensions:
+```console
+conda install -c conda-forge jupyterlab-lsp   # Handy helper functions (hover-over instructions etc), but nog sure how to configure 
+pip install lckr-jupyterlab-variableinspector # see which variables are used by your code
+conda install -c conda-forge jupyterlab_code_formatter # formats code automatically 
+conda install black isort # formatter plugins for latter
+pip install aquirdturtle_collapsible_headings # enables collapsible headings in python
+```
+
+Python packages:
+```console
+conda install -n test_env numpy # for array manipulation
+conda install -n test_env pandas # for data-frame manipulation
+conda install -n test_env matplotlib # for plotting
+conda install -n test_env plotly # for interactive-plotting
+conda install -n test_env scikit-learn # many machine-learning tools
+conda install -n test_env xgboost # popular gradient-boosting algorithm
+```
