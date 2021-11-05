@@ -78,7 +78,7 @@ conda activate test_env
 
 ## List of handy jupyter extensions and python packages
 
-Make sure you are in the correct environment, then run following code blocks
+Make sure you are in the environment in which you want to install, then run following code blocks
 
 Jupyter extensions:
 ```console
