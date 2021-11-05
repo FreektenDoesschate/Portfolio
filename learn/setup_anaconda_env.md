@@ -84,6 +84,7 @@ Jupyter extensions:
 ```console
 # Handy helper functions (hover-over instructions etc), but nog sure how to configure:
 conda install -y -c conda-forge jupyterlab-lsp
+pip install 'python-lsp-server[all]'
 
 # see which variables are used by your code:
 pip install lckr-jupyterlab-variableinspector 
@@ -118,4 +119,27 @@ conda install -y xgboost
 
 # package for explainable machine learning:
 conda install dalex
+```
+
+
+To configure jupyterlab-lsp, in jupyter-lab go to _Settings -> Advanced Settings Editor_ and under _language servers_ past the following under _User preferences_ (and click save button):
+
+```json
+{
+  "language_servers": {
+    "pylsp": {
+      "serverSettings": {
+        "pylsp.plugins.pydocstyle.enabled": true,
+        "pylsp.plugins.pyflakes.enabled": false,
+        "pylsp.plugins.flake8.enabled": true
+      }
+    },
+    "r-languageserver": {
+      "serverSettings": {
+        "r.lsp.debug": false,
+        "r.lsp.diagnostics": false
+      }
+    }
+  }
+}
 ```
